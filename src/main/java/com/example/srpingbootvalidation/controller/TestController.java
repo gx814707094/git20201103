@@ -30,7 +30,11 @@ public class TestController {
         System.out.println(personList.size());
         return "gx2";
     }
-
+	
+    @GetMapping("/b-20201103-B")
+    public String t_20201103_B(){
+    	return "";
+    }
 
 
 
