@@ -31,7 +31,10 @@ public class TestController {
         return "gx2";
     }
 
-
+   @GetMapping("/20201101-A")
+   public String T_20201101(){
+	return "";
+   }
 
 
 }
