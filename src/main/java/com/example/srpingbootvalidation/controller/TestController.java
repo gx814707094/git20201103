@@ -22,7 +22,7 @@ public class TestController {
 
     @PostMapping("/add/person")
     public String addPerson(@RequestBody @Valid Person person){
-        return "ok";
+        return "okasdasdasd";
     }
 
     @PostMapping("/batch/add/person")
