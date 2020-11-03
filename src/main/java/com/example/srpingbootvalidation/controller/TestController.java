@@ -28,7 +28,7 @@ public class TestController {
     @PostMapping("/batch/add/person")
     public String batchAddPerson(@RequestBody @ValidList List<Person> personList){
         System.out.println(personList.size());
-        return "ok";
+        return "ok222232315";
     }
 
 
